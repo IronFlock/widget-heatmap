@@ -48,14 +48,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/RecordEvolution/widget-heatmap.git"
+        "url": "git+https://github.com/IronFlock/widget-heatmap.git"
     },
     "keywords": [
         "widget",
         "heatmap"
     ],
     "bugs": {
-        "url": "https://github.com/RecordEvolution/widget-heatmap/issues"
+        "url": "https://github.com/IronFlock/widget-heatmap/issues"
     },
-    "homepage": "https://github.com/RecordEvolution/widget-heatmap#readme"
+    "homepage": "https://github.com/IronFlock/widget-heatmap#readme"
 }
