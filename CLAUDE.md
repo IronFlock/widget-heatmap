@@ -18,7 +18,7 @@ Node `>=24.9.0`, npm `>=10.0.2` (CI uses Node 24).
 
 ## Architecture
 
-Single-file LitElement web component published as `@record-evolution/widget-heatmap`. Part of the wider `ironflock-widgets` collection — sibling repos (widget-linechart, widget-gauge, etc.) share the same shape.
+Single-file LitElement web component published as `@ironflock/widget-heatmap`. Part of the wider `ironflock-widgets` collection — sibling repos (widget-linechart, widget-gauge, etc.) share the same shape.
 
 ### Versioned custom element tag
 
