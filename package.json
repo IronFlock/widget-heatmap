@@ -21,8 +21,8 @@
         "start": "vite build --watch & vite",
         "build": "vite build",
         "watch": "vite build --watch",
-        "link": "npm run build && npm link && cd ../RESWARM/frontend && npm link @ironflock/widget-heatmap",
-        "unlink": "npm unlink --global && cd ../RESWARM/frontend && npm unlink @ironflock/widget-heatmap && npm i @ironflock/widget-heatmap",
+        "link": "npm run build && npm link && cd ../../studio && npm link @ironflock/widget-heatmap",
+        "unlink": "npm unlink --global && cd ../../studio && npm unlink @ironflock/widget-heatmap && npm i @ironflock/widget-heatmap",
         "types": "cat src/definition-schema.json | json2ts --style.tabWidth=4 > src/definition-schema.d.ts"
     },
     "dependencies": {
