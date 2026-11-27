@@ -17,7 +17,7 @@ export default defineConfig({
         lib: { entry: 'src/widget-heatmap.ts', formats: ['es'], fileName: 'widget-heatmap' },
         sourcemap: true,
         rollupOptions: {
-            external: [/^echarts/],
+            external: [/^lit/, /^@lit/, /^echarts/],
             output: { banner: '/* @license Copyright (c) 2026 Record Evolution GmbH. All rights reserved.*/' }
         }
     }
