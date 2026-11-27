@@ -83,7 +83,7 @@ Only the components actually used are registered via `echarts.use([...])` at the
 
 ### Build pipeline
 
-Rollup (`rollup.config.js`) with: `replace` (NODE_ENV + version), `typescript`, `node-resolve`, `commonjs`, `babel` (bundled helpers). Single ESM output to `dist/`. `treeshake.moduleSideEffects: false` is required for ECharts tree-shaking to work.
+Rollup (`rollup.config.js`) with: `replace` (NODE_ENV + version), `typescript`, `node-resolve`, `commonjs`, `babel` (bundled helpers). Single ESM output to `dist/`. `treeshake.moduleSideEffects: false` is required for ECharts tree-shaking to work. `echarts` and `lit` are external: studio's import map provides one copy of each for all widgets.
 
 ## `aiSelection` in `src/definition-schema.json`
 
